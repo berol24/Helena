@@ -1,0 +1,145 @@
+.blocks {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* .block-right {
+    width: 486px;
+    height: 621px; 
+    background: rgba(89, 63, 128, 0.65);
+} */
+
+.blockArticle {
+    width: 486px;
+    height: 621px; 
+    background: rgba(89, 63, 128, 0.65);
+}
+
+.DescPrix {
+    text-align: center;
+}
+
+.DescPrix h1{
+    color: white;
+    padding-top: 54px;
+    font-size: 36px;
+}
+
+.DescPrix .prix {
+    color: #A52766;
+    font-size: 35px;
+}
+
+.block-right .blockArticle .container .taille{
+    display: flex;
+    justify-content: space-around;    
+    margin: 33px auto auto -64px;
+    width: 385px;
+    color: white;
+}
+
+.block-right .blockArticle .container .quantiteStock {
+    display: flex;
+    justify-content: space-around;    
+    margin: 33px auto auto -42px;
+    width: 385px;
+    color: white;
+}
+
+.block-right .blockArticle .container .quantité {
+    display: flex;
+    justify-content: space-around;    
+    margin: 33px auto auto -32px;
+    width: 385px;
+    color: white;
+}
+
+
+.description .myDesc {
+    display: flex;
+    justify-content: space-around;    
+    margin: 33px auto auto -130px;
+    text-decoration: underline white;
+    width: 385px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.description .descArticle { 
+    margin-left: 65px;
+    width: 369px;
+    height: 94px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.descArticle p { 
+    font-size: 20px;
+} 
+
+.ajoutPanier button { 
+    width: 486px;
+    height: 94px; 
+    background: #A52766;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    color: white; 
+    margin-top: 43px;
+}
+
+
+
+
+
+.container .quantité .quantite-arrow{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .quantité .quantite-arrow .quantite-number{
+
+    background-color: white;
+    color: black;
+    width: 58px;
+    height: 44px; 
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+
+
+.container .quantité .arrow{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    text-align: center;
+   
+
+}
+
+.container .quantité .arrow span{
+    /* background-color: white; */
+    width: 45px;
+    height: 20px; 
+    color: black;
+    cursor: pointer;
+}
+
+.container .quantité .arrow .expand_less{
+    background-color: red;
+
+}
+
+

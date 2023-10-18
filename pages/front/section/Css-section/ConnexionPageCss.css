@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::before {
+	content: "";
+	display: table;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.input-person .material-symbols-outlined {
+    margin-left: 50px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+
+.input-mdp .material-symbols-outlined {
+    margin-left: 50px;
+}
+
+
+.logoConnexion a img{
+    border: 1px solid red; 
+    margin-top: 47px;
+    margin-left: 122px;
+    
+    width: 121px;
+    height: 106px; 
+}
+
+.formulaireConnexion {
+   text-align: center;
+   margin: 30px auto;
+   background-color: rgba(89, 63, 128, 0.65) ;
+   width: 1196px;
+   height: 1340px;
+}
+
+.formulaireConnexion .logoFormulaire {
+    margin: 67px auto;
+    width: 224px;
+    height: 216px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgba(165, 39, 102, 0.75); 
+   
+   border-radius: 120px;
+}
+.formulaireConnexion .logoFormulaire .material-symbols-outlined{
+    color: white;
+    font-size: 55px;
+}
+
+.formulaireConnexion h1 {
+    margin-bottom: 159px;
+    font-size: 45px;
+    color: white;
+   
+}
+
+.formulaireConnexion input {
+    width: 952px;
+    height: 130px; 
+    background: rgba(217, 217, 217, 0.80);
+    margin-bottom: 51px;
+    text-indent: 120px;
+    border: none;
+    
+}
+
+.formulaireConnexion input::placeholder {
+font-size: 40px;
+    
+}
+
+.formulaireConnexion .input-person {
+   position: relative;
+}
+
+.formulaireConnexion .input-person .material-symbols-outlined{
+    position: absolute;
+    font-size: 59px;
+    top: 34px;
+    opacity: 0.5;
+    margin-left: 37px;
+    
+}
+
+.formulaireConnexion .input-mdp{
+    position: relative;
+    
+}
+
+.formulaireConnexion .input-mdp .material-symbols-outlined{
+    position: absolute;
+    font-size: 59px;
+    top: 34px;
+    opacity: 0.5;
+    margin-left: 37px;
+    
+}
+
+.mdpSpan {
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin-top: -37px;
+    margin-right: 120px;
+    font-size: 35px; 
+}
+
+
+.formulaireConnexion button {
+    margin-top: 179px;
+    width: 952px;
+    height: 130px;
+    color: white;
+    background: rgba(165, 39, 102, 0.75);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none; 
+}
+
+section p {
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 49px;
+    
+}
+section p .creerCompte {
+    color: #A52766; 
+    text-decoration: none;
+}
+

@@ -1,0 +1,65 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+
+
+  .tablink {
+    background-color: white;
+    color: #9e4b75;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+  }
+
+
+  .tabcontent {
+    background-color: white;
+    color: #BC5D8C;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+
+
+.elsection div ul {
+  border: 2px solid rgb(0, 255, 119);
+  display: grid;
+  grid-template-columns: auto auto auto;
+ 
+  justify-content: center;
+}
+
+.elsection div ul li {
+  list-style: none;
+  border: 2px solid rgb(0, 0, 255);
+  margin-top: 8.5rem;
+}
+
+#Vetements {
+  background-color: white;
+}
+#Accessoire {
+  background-color: white;
+}
+
+
+
+@media (max-width: 768px) {
+  .tablink {
+      width: 100%;
+  }
+
+  .elsection div ul li {
+      margin-top: 2rem;
+  }
+}
+
+
+

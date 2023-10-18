@@ -1,0 +1,102 @@
+.logoFormulaire {
+    display: flex;
+    justify-content: space-around;
+}
+
+.MotdePasseContent {
+    text-align: center;
+    background: rgba(89, 63, 128, 0.65);
+    width: 1196px;
+    height: 1248px; 
+    margin: 144px auto;
+}
+
+.MotdePasseContent .btnCompte {
+    cursor: pointer;
+    font-style: normal;
+    margin-top: 62px;
+    width: 346px;
+    height: 95px;
+    color: white;
+    background: rgba(165, 39, 102, 0.75);
+
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none; 
+}
+
+.MotdePasseContent button a {
+    text-decoration: none;
+    color: white;
+}
+
+.MotdePasseContent .btnConnexion {
+    cursor: pointer;
+    font-style: normal;
+    margin-top: 62px;
+    width: 346px;
+    height: 95px;
+    color: white;
+    background: rgba(165, 39, 102, 0.75);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none; 
+}
+
+.MotdePasseContent button {
+    margin-top: 179px;
+    margin-bottom: 279px;
+    width: 952px;
+    height: 130px;
+    color: white;
+    background: rgba(165, 39, 102, 0.75);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none; 
+}
+
+.MotdePasseContent h1{
+font-size: 45px;
+font-weight: 400;
+margin-top: -80px;
+color: white;
+
+}
+
+.MotdePasseContent .find-mdp{
+    margin-top: 113px;
+}
+
+.MotdePasseContent .find-mdp p{
+   color: white;
+}
+
+
+.MotdePasseContent form .input-person input{
+width: 952px;
+height: 130px;
+margin-top: 88px;
+background: rgba(217, 217, 217, 0.80); 
+font-size: 25px;
+border: none;
+}
+
+.MotdePasseContent .btnMdp{
+    margin-top: 179px;
+    margin-bottom: 279px;
+    width: 952px;
+    height: 130px;
+    color: white;
+    background: rgba(165, 39, 102, 0.75);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none; 
+}

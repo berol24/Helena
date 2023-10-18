@@ -1,0 +1,365 @@
+
+
+
+.tablink {
+    background-color: #9e4b75;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+
+
+  .tabcontent {
+    background-color: white;
+    color: #BC5D8C;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+
+
+.elsection div ul {
+  border: 2px solid rgb(0, 255, 119);
+  display: grid;
+  grid-template-columns: auto auto auto;
+ 
+  justify-content: center;
+}
+
+.elsection div ul li {
+  list-style: none;
+  border: 2px solid rgb(0, 0, 255);
+  margin-top: 8.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .tablink {
+      width: 100%;
+  }
+
+  .elsection div ul li {
+      margin-top: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MesInformations */
+
+
+
+
+
+
+.formulaireConnexion {
+    text-align: center;
+    margin: 30px auto;
+    width: 1196px;
+    height: 1340px;
+ }
+
+ hr {
+    text-align: center;
+    width: 120px;
+ }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 5px;
+}
+
+.formulaireConnexion h1 {
+    padding-top: 69px;
+}
+
+.item {
+    padding: .5rem;
+    color: white;
+    text-align: center;
+}
+
+
+.item label {
+    float: left;
+    margin-top: -10px;
+    margin-left: 99px;
+    color: #913333;
+}
+
+.item input {
+    width: 365px;
+    height: 106px;
+}
+
+.formulaireConnexion .container .item input::placeholder{
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+
+
+
+.formulaireConnexion button {
+    margin-top: 179px;
+    width: 952px;
+    height: 130px;
+    color: white;
+    background: rgba(165, 39, 102, 0.75);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none; 
+    transition: ease-in-out 0.2s;
+}
+
+.formulaireConnexion button:hover {
+    color: rgba(165, 39, 102, 0.75);
+    background: white;
+    border: 2px solid rgba(165, 39, 102, 0.75);
+}
+
+.formulaireConnexion .info{
+    width: 714px;
+    margin: 113px auto 0;
+    color: black;
+}
+
+
+
+
+/* Mes Commandes */
+
+.elsection #MesCommandes .CommandeContent {
+    
+    margin: 120px 243px;
+    width: 954px;
+    height: 648px;
+    border-radius: 30px;
+    background: rgba(89, 63, 128, 0.65);
+    align-items: center;
+    text-align: center;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    margin: 34px 122px;
+}
+
+.block1 {
+    margin: 111px 152px auto 0px;
+    line-height: 62px;
+    text-align: start;
+}
+
+.block2 {
+    line-height: 62px;
+    text-align: end;
+    margin-top: 111px;
+}
+
+.block1 p{
+    color: white;
+}
+.block2 p{
+    color: #00FF0A;
+}
+
+.imageArticle {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    width: 540px;
+}
+
+.imageArticle p {
+    margin-left: 47px;
+    color: white;
+}
+
+
+.imageArticle img {
+    width: 224px;
+    height: 302px;
+    object-fit: cover;
+}
+
+.clearfix::before {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+/* Changer Le Mot De Passe */
+
+
+
+
+.changePassword {
+    display: block;
+    text-align: center;
+
+}
+
+.changePassword .motDePasseActuel{
+    margin-top: 100px;
+  
+}
+
+.changePassword #motDePasseActuel{
+    margin-top: 22px;
+  
+}
+
+
+.changePassword .nouveauMotDePasse{
+    margin-top: 22px;
+    margin-bottom: 23px;
+}
+
+.changePassword .nouveauMotDePasse label{
+    margin-top: 22px;
+    margin-bottom: 23px;
+ 
+}
+
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    color: #913333;
+    margin-bottom: 5px;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 8px;
+    font-size: 24px;
+    width: 466px;
+    height: 106px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-group .sauvegarder {
+    padding: 10px 20px;
+    font-size: 24px;
+    width: 466px;
+    height: 106px;
+    background-color: rgba(165, 39, 102, 0.75);;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.sauvegarder:hover {
+    background-color: white;
+    color: rgba(165, 39, 102, 0.75);
+    border: 2px solid rgba(165, 39, 102, 0.75);
+}
+
+
+
+/* Besoin d'aide  */
+
+.help{
+
+    border-radius: 30px;
+    background: rgba(89, 63, 128, 0.65);
+    width: 954px;
+    height: 531px;
+    margin: 159px auto 197px;
+    display: flex;
+  flex-direction: column;
+}
+
+
+
+
+h2{
+    float: left;
+  
+    margin: 60px 102px 46px;
+ 
+    color: white;
+}
+hr{
+    width: 608px;
+    color: gray;
+}
+
+
+.help .infoHelp{
+    background-color: white;
+    margin: 30px 244px 85px 102px;
+    width: 608px;
+    height: 332px;
+}
+
+
+.help .infoHelp div{
+ width: 608px;
+ height: 72px;
+ scale: 1;
+}
+.help .infoHelp div:hover{
+    scale: 1.05;
+   }
+.help .infoHelp div:last-child{
+   
+   margin-bottom: 20px;
+   }
+.help .infoHelp div a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  padding: 24px 0px 14px 16px;
+  width: 592px;
+  color: black;
+}
+
+.help .infoHelp div a{
+  font-size: 13px;
+  }
